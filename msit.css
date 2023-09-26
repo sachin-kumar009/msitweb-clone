@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(7, 14, 55);
+  border: 2px solid black;
+  height: 50px;
+  padding: 0;
+}
+.topnav li {
+  text-align: justify;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 25px;
+}
+.topnav li a {
+  margin: auto;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+  color: aliceblue;
+}
+
+.topnav li a:hover {
+  background-color: #f7871e;
+  border: 3px solid white;
+  font-size: 1.1rem;
+  color: black;
+  border-radius: 2px;
+}
+.msitlogo {
+  display: inline;
+}
+.msitlogo a {
+  display: flex;
+}
+.msitlogo a img {
+  display: flex;
+  width: 100px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.title h1 {
+  color: rgb(81, 100, 209);
+  background-color: transparent;
+  display: flex;
+  margin-left: 170px;
+  margin-top: -80px;
+}
+.title h3 {
+  display: flex;
+  color: #f7871e;
+  background-color: transparent;
+  margin-left: 170px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.headinglower {
+  color: rgb(255, 136, 0);
+  text-align: center;
+}
+
+.bottomnav {
+  overflow: hidden;
+  background-color: #d9630e;
+  border-color: #333;
+  border: 2px solid black;
+}
+.bottomnav li {
+  float: left;
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 14px 16px;
+  border-color: #333;
+}
+.bottomnav li a {
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.bottomnav a:hover {
+  background-color: rgb(7, 14, 55);
+  border: 3px solid black;
+  color: white;
+  border-radius: 1px;
+  font-size: 1.1rem;
+}
+.about_msit {
+  font-size: 1.2rem;
+  color: black;
+  height: auto;
+  padding: 0 3%;
+  margin:0.8px 70px;
+  border: 0.8px solid black;
+  border-radius: 0.8%;
+
+}
+.about_msit p{
+  padding-bottom: 15px;
+}
+.about_msit b {
+  display: flex;
+  font-size: 1.7rem;
+  padding: 5px 40%;
+
+}
+marquee {
+  background-color: rgb(235, 233, 233);
+  padding: 8px;
+}
+.about_msit #institute{
+  display: flex;
+  margin-left: 5px;
+  padding-left: 6px;
+  color: #f7871e;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: left;
+}
+/**.title {
+  display: flex;
+  background-image: url(aboutmsit.png);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-color: rgb(66, 66, 66);
+}
+**/
