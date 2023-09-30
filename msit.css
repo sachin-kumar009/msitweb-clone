@@ -98,50 +98,69 @@
   color: black;
   height: auto;
   padding: 0 3%;
-  margin:0.8px 70px;
+  margin: 0.8px 70px;
   border: 0.8px solid black;
   border-radius: 0.8%;
-
 }
-.about_msit p{
+.about_msit p {
   padding-bottom: 15px;
 }
 .about_msit b {
   display: flex;
   font-size: 1.7rem;
   padding: 5px 40%;
-
 }
 marquee {
   background-color: rgb(235, 233, 233);
   padding: 8px;
 }
-.about_msit #institute{
+.about_msit #institute {
   display: flex;
   margin-left: 5px;
   padding-left: 6px;
   color: #f7871e;
 }
-table,th,td{
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
   width: 50%;
   text-align: left;
 }
-.footer{
-  display:flex;
+.footer {
+  display: flex;
   background-color: black;
   color: white;
-  padding:10px 0px;
-  height:30px;
-  font-size:0.9 rem;
+  padding: 10px 0px;
+  height: 30px;
+  font-size: 0.9rem;
 }
-.footer p{
-  margin:5px;
-  padding-left:450px;
-  margin-right:150px;
+.footer p {
+  margin: 5px;
+  padding-left: 450px;
+  margin-right: 150px;
 }
-.footer i{
+.footer i {
   display: block;
   padding: 5px 16px;
+}
+
+/* for society page */
+.societies{
+  font-size: 1.2rem;
+  color: black;
+  height: auto;
+  padding: 0 3%;
+  margin: 0.8px 70px;
+  border: 0.8px solid black;
+  border-radius: 0.8%;
+}
+.societies p{
+  padding-bottom: 15px;
+}
+.societies b  {
+  display: flex;
+  font-size: 1.7rem;
+  padding: 5px 40%;
 }
